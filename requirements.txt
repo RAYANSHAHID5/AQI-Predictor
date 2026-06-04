@@ -1,0 +1,10 @@
+pandas
+requests
+scikit-learn
+xgboost
+joblib
+shap
+hopsworks[python]==4.7.*
+pyarrow
+python-dotenv
+matplotlib
