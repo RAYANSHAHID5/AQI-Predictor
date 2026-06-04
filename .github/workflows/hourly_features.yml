@@ -24,4 +24,4 @@ jobs:
         env:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
           AQICN_TOKEN: ${{ secrets.AQICN_TOKEN }}
-        run: python feature_pipeline.py
+        run: python FeaturePipeline.py
