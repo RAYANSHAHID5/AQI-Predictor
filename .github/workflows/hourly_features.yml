@@ -2,7 +2,7 @@ name: Hourly AQI Data Fetch
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs at minute 0 past every hour
+    - cron: '19 * * * *' # Runs at minute 0 past every hour
   workflow_dispatch: # Allows you to manually trigger it from GitHub
 
 jobs:
