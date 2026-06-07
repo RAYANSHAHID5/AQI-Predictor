@@ -1,8 +1,0 @@
-AQI PREDICTOR - MODEL BENCHMARKING REPORT
-==================================================
-           Model   MAE  RMSE R² Score
-Ridge Regression 26.62 31.34 -147.22%
-   Random Forest 20.81 23.93  -44.16%
-         XGBoost 17.87 21.03  -11.32%
-==================================================
-WINNING MODEL SELECTED: XGBoost
