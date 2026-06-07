@@ -97,11 +97,12 @@ def train_and_select_champion():
 
     aqi_model = mr.python.create_model(
         name="lahore_aqi_model",
-        metrics={"RMSE": lowest_rmse, "R2": best_r2, "Algorithm": best_name},
+        # Removed the string value from metrics to satisfy Hopsworks strict typing
+        metrics={"RMSE": lowest_rmse, "R2": best_r2},
         description=f"Automated champion model. Winner: {best_name}"
     )
     aqi_model.save(model_dir)
-    print("Champion successfully deployed to production!")
+    print("🎉 Champion successfully deployed to production!")
 
 
 if __name__ == "__main__":
