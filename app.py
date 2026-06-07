@@ -1,10 +1,9 @@
 """
 streamlit web dashboard
 connects to Hopsworks feature store to retrieve historical AQI data and the
-registered XGBoost model.Provides real time AQI predictions and an interactive EDA
+registered XGBoost model provides real time AQI predictions and an interactive EDA
 suite proving environmental correlations.
 """
-
 import streamlit as st
 import hopsworks
 import joblib
