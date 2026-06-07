@@ -1,8 +1,7 @@
 """
 fetches weather and pollutant data from AQICN,generates the features needed by
 the model including timestamps and AQI movement over time and stores them in
-Hopsworks.
-Scheduled to run every hour as part of the CI/CD pipeline.
+Hopsworks. Scheduled to run every hour as part of the CI/CD pipeline.
 """
 
 import requests

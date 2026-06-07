@@ -19,7 +19,6 @@ LAT = 31.5256
 LON = 74.4361
 PAST_DAYS = 90
 
-
 def fetch_historical_data():
     """Fetches and merges historical AQI and weather data from external APIs."""
     print(f"Fetching {PAST_DAYS} days of historical data...")
